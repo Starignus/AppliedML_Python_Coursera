@@ -12,6 +12,8 @@ import graphviz
 from sklearn.tree import export_graphviz
 import matplotlib.patches as mpatches
 
+# Meshgrid expanation https://stackoverflow.com/questions/36013063/what-is-purpose-of-meshgrid-in-python
+
 def load_crime_dataset():
     # Communities and Crime dataset for regression
     # https://archive.ics.uci.edu/ml/datasets/Communities+and+Crime+Unnormalized
