@@ -1,0 +1,36 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="mean concave points <= 0.0489\nsamples = 426\nvalue = [159, 267]\nclass = benign", fillcolor="#399de567"] ;
+1 [label="worst area <= 952.9\nsamples = 260\nvalue = [13, 247]\nclass = benign", fillcolor="#399de5f2"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="area error <= 38.885\nsamples = 252\nvalue = [7, 245]\nclass = benign", fillcolor="#399de5f8"] ;
+1 -> 2 ;
+3 [label="worst texture <= 30.145\nsamples = 244\nvalue = [4, 240]\nclass = benign", fillcolor="#399de5fb"] ;
+2 -> 3 ;
+4 [label="samples = 212\nvalue = [0, 212]\nclass = benign", fillcolor="#399de5ff"] ;
+3 -> 4 ;
+5 [label="samples = 32\nvalue = [4, 28]\nclass = benign", fillcolor="#399de5db"] ;
+3 -> 5 ;
+6 [label="samples = 8\nvalue = [3, 5]\nclass = benign", fillcolor="#399de566"] ;
+2 -> 6 ;
+7 [label="samples = 8\nvalue = [6, 2]\nclass = malignant", fillcolor="#e58139aa"] ;
+1 -> 7 ;
+8 [label="worst area <= 785.8\nsamples = 166\nvalue = [146, 20]\nclass = malignant", fillcolor="#e58139dc"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="worst texture <= 23.74\nsamples = 30\nvalue = [13, 17]\nclass = benign", fillcolor="#399de53c"] ;
+8 -> 9 ;
+10 [label="samples = 14\nvalue = [0, 14]\nclass = benign", fillcolor="#399de5ff"] ;
+9 -> 10 ;
+11 [label="worst smoothness <= 0.1657\nsamples = 16\nvalue = [13, 3]\nclass = malignant", fillcolor="#e58139c4"] ;
+9 -> 11 ;
+12 [label="samples = 8\nvalue = [5, 3]\nclass = malignant", fillcolor="#e5813966"] ;
+11 -> 12 ;
+13 [label="samples = 8\nvalue = [8, 0]\nclass = malignant", fillcolor="#e58139ff"] ;
+11 -> 13 ;
+14 [label="worst texture <= 19.385\nsamples = 136\nvalue = [133, 3]\nclass = malignant", fillcolor="#e58139f9"] ;
+8 -> 14 ;
+15 [label="samples = 9\nvalue = [6, 3]\nclass = malignant", fillcolor="#e581397f"] ;
+14 -> 15 ;
+16 [label="samples = 127\nvalue = [127, 0]\nclass = malignant", fillcolor="#e58139ff"] ;
+14 -> 16 ;
+}
