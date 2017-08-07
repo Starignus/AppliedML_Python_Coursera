@@ -8,8 +8,8 @@ This repo contains the Jupyter notebooks of the course. I also included the note
 
 * [Module 2: Supervised Machine Learning - Part 1](Module_2.ipynb)
 
-*[Module 3: Evaluation](Module_3.ipynb)
+* [Module 3: Evaluation](Module_3.ipynb)
 
-*[Module 4: Supervised Machine Learning - Part 2](Module_4.ipynb)
+* [Module 4: Supervised Machine Learning - Part 2](Module_4.ipynb)
 
-*[Optional: Unsupervised Machine Learning](Unsupervised_Learning.ipynb)
+* [Optional: Unsupervised Machine Learning](Unsupervised_Learning.ipynb)
