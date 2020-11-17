@@ -80,7 +80,7 @@ def plot_labelled_scatter(X, y, class_labels):
 
 def plot_class_regions_for_classifier_subplot(clf, X, y, X_test, y_test, title, subplot, target_names = None, plot_decision_regions = True):
 
-    numClasses = numpy.amax(y) + 1
+    numClasses = int(numpy.amax(y)) + 1
     color_list_light = ['#FFFFAA', '#EFEFEF', '#AAFFAA', '#AAAAFF']
     color_list_bold = ['#EEEE00', '#000000', '#00CC00', '#0000CC']
     cmap_light = ListedColormap(color_list_light[0:numClasses])
@@ -130,7 +130,7 @@ def plot_class_regions_for_classifier_subplot(clf, X, y, X_test, y_test, title, 
 
 def plot_class_regions_for_classifier(clf, X, y, X_test=None, y_test=None, title=None, target_names = None, plot_decision_regions = True):
 
-    numClasses = numpy.amax(y) + 1
+    numClasses = int(numpy.amax(y)) + 1
     color_list_light = ['#FFFFAA', '#EFEFEF', '#AAFFAA', '#AAAAFF']
     color_list_bold = ['#EEEE00', '#000000', '#00CC00', '#0000CC']
     cmap_light = ListedColormap(color_list_light[0:numClasses])
